@@ -18,7 +18,8 @@ $(":jqmData(role)=page").live('pageinit', function(e) {
 				'<li><a href="slidebox.html">Slide Mode</a></li>' +
 				'<li><a href="flipbox.html">Flip Mode</a></li>' +
 				'<li><a href="timebox.html">Time Mode</a></li>' +
-				'<li><a href="durationbox.html">Duration Mode</a></li>'),
+				'<li><a href="durationbox.html">Duration Mode</a></li>' +
+			    '<li><a href="datetimebox.html">DateTime Mode</a></li>'),
 			'opt': $('<li data-role="list-divider">Option Demos</li>' +
 				'<li><a href="simplelimit.html">Simple Data Limits</a></li>' +
 				'<li><a href="advlimit.html">Advanced Data Limits</a></li>' +
@@ -31,7 +32,7 @@ $(":jqmData(role)=page").live('pageinit', function(e) {
 				'<li><a href="linksel.html">Linking w/ a Custom Select</a></li>' +
 				'<li><a href="start.html">Dynamic Start Date</a></li>' +
 				'<li><a href="maxdays.html">Dynamic Ending Date</a></li>' +
-				'<li><a href="convert.html">Using DateBox as a Conversion Library</a></li>' ),
+				'<li><a href="convert.html">Using DateBox as a Conversion Library</a></li>' )
 		},
 	sidebarstart = $('<ul data-corners="false" data-role="listview" data-inset="true" data-theme="c" data-dividertheme="f"></ul>');
 	
